@@ -19,7 +19,15 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/bottom_nav_menu" />
 
-<!--    <fragment-->
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.emergencymessage.HomeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <!--    <fragment-->
 <!--        android:id="@+id/nav_host_fragment"-->
 <!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
 <!--        android:layout_width="match_parent"-->
@@ -30,13 +38,5 @@
 <!--        app:layout_constraintRight_toRightOf="parent"-->
 <!--        app:layout_constraintTop_toTopOf="parent"-->
 <!--        app:navGraph="@navigation/mobile_navigation" />-->
-
-    <fragment
-        android:id="@+id/fragment3"
-        android:name="com.example.emergencymessage.ui.home.HomeFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="206dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
