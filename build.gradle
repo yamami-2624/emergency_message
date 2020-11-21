@@ -12,6 +12,26 @@ buildscript {
     }
 }
 
+//dependencies {
+//    def fragment_version = "1.2.5"
+//
+//    // Java language implementation
+//    implementation "androidx.fragment:fragment:1.2.5"
+////    ここに書くことによってimport~~に書かなくてよくなっている可能性
+//}
+
+allprojects {
+    repositories {
+        google()
+
+//         If you're using a version of Gradle lower than 4.1, you must instead use:
+//         maven {
+//             url 'https://maven.google.com'
+//         }
+//         An alternative URL is 'https://dl.google.com/dl/android/maven2/'
+    }
+}
+
 allprojects {
     repositories {
         google()
