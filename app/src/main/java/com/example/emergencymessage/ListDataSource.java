@@ -43,6 +43,7 @@ class ListDataSource {
 
     public static List<Map<String, String>> getAll() {
         List<Map<String, String>> result = new ArrayList<>();
+//        for構文　繰り返し行われる。
         for(int i = 0; i < name.size(); i++) {
             Map<String, String> map = new HashMap<>();
             map.put("name", name.get(i));
